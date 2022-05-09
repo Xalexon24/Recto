@@ -20,7 +20,7 @@ body {
 
 body {
     font-family: Roboto;
-    background-image: url('../Recto/imagine/background.jpg');
+    background-image: url('./imagine/background.jpg');
     background-size: cover;
     min-width: 340px;
 }
