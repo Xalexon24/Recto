@@ -13,7 +13,7 @@
     <nav class="nav-bar secondary-text">
         <div class="nav-bar-wrapper">
             <div class="nav-logo-wrapper">
-                <img src='./Recto/imagine/logo.png' class="logo">
+                <img src='./imagine/logo.png' class="logo">
             </div>
 
             <div class="nav-menu-wrapper">
@@ -23,7 +23,7 @@
                 <img class="nav-menu-icon" src="./imagine/Vector.png"/>
             </div>
 
-                        <div class="menu-button"></div>
+            <div class="menu-button"></div>
         </div>
     </nav>
 </header>
@@ -34,69 +34,73 @@
         <img id="iphoneImage" class="iphone-info__image" src="./imagine/14 pro max.jpg" alt="">
         <div class="iphone-mainContent">
             <h3 id="iphoneHeader">Iphone 14</h3>
-            <p id="iphoneParagraph">Iphone 14 стане новим флагманом у світі смартфонів. Звичайна, але потужна версія айфону на базі процессора Apple A16 Bionic та з камерою 48МП від Sony. Ідеальний баланс між ціною та потужністю.'
+            <p id="iphoneParagraph">Iphone 14 стане новим флагманом у світі смартфонів. Звичайна, але потужна версія
+                айфону на базі процессора Apple A16 Bionic та з камерою 48МП від Sony. Ідеальний баланс між ціною та
+                потужністю.'
             </p>
         </div>
     </div>
 
 
-        <div class="form-card flex-column">
-            <div class="form-wrapper">
+    <div class="form-card flex-column">
+        <div class="form-wrapper">
 
-                <h2 class="form-title">Електронна черга для покупки Iphone 14</h2>
+            <h2 class="form-title">Електронна черга для покупки Iphone 14</h2>
 
-                <form id="formSubmit" class="registration-form flex-column" action="submit">
+            <form id="formSubmit" class="registration-form flex-column" action="submit">
 
-                    <label class="form-label"
-                           for="name"
-                    >Імʼя</label>
-                    <input class="form-input"
-                           type="text"
-                           id="name"
-                           name="name"
-                           placeholder="Введіть імʼя"
-                           required
+                <label class="form-label"
+                       for="name"
+                >Імʼя</label>
+                <input class="form-input"
+                       type="text"
+                       id="name"
+                       name="name"
+                       placeholder="Введіть імʼя"
+                       required
+                >
+
+                <label class="form-label"
+                       for="phone"
+                       required>Телефон</label>
+                <input class="form-input"
+                       type="tel"
+                       id="phone"
+                       name="phone"
+                       placeholder="+38 (_) __ __ __"
+                       required>
+
+                <label class="form-label" for="select">Версія Iphone 14</label>
+                <select class="form-input form-input-select" name="" id="select" required>
+                    <option
+                            value="iphoneMax"
+                            class="iphone-arr"
                     >
+                        Iphone 14 pro max
+                    </option>
+                    <option
+                            value="iphonePro"
+                            class="iphone-arr"
+                    >Iphone 14 pro
+                    </option>
+                    <option
+                            value="iphoneS"
+                            class="iphone-arr"
+                    >Iphone 14 S
+                    </option>
+                    <option
+                            value="iphone" selected
+                            class="iphone-arr"
+                    >Iphone 14
+                    </option>
+                </select>
 
-                    <label class="form-label"
-                           for="phone"
-                           required>Телефон</label>
-                    <input class="form-input"
-                           type="tel"
-                           id="phone"
-                           name="phone"
-                           placeholder="+38 (_) __ __ __"
-                           required>
+                <button class="form-submit-button" type="submit">Зареєструватися</button>
+            </form>
 
-                    <label class="form-label" for="select">Версія Iphone 14</label>
-                    <select class="form-input form-input-select" name="" id="select" required>
-                        <option
-                                value="iphoneMax"
-                                class="iphone-arr"
-                        >
-                            Iphone 14 pro max
-                        </option>
-                        <option
-                                value="iphonePro"
-                                class="iphone-arr"
-                        >Iphone 14 pro</option>
-                        <option
-                                value="iphoneS"
-                                class="iphone-arr"
-                        >Iphone 14 S
-                        </option>
-                        <option
-                                value="iphone" selected
-                                class="iphone-arr"
-                        >Iphone 14</option>
-                    </select>
-
-                    <button  class="form-submit-button" type="submit">Зареєструватися</button>
-                </form>
-
-            </div>
         </div>
     </div>
+
 
 </section>
 
